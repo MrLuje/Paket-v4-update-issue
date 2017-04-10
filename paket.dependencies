@@ -1,0 +1,36 @@
+source https://api.nuget.org/v3/index.json
+
+nuget BookSleeve 1.3.41
+nuget Castle.Core 3.3.3 framework: >= net452
+nuget CommonServiceLocator 1.0
+nuget Common.Logging 3.1.0 framework: >= net451
+nuget Common.Logging.Core 3.1.0 framework: >= net451
+nuget Dapper 1.50.2 framework: >= net451
+nuget Elasticsearch.Net 1.7.1 framework: >= net452
+nuget EnterpriseLibrary.Common 5.0.505.0
+nuget EnterpriseLibrary.Data 5.0.505.0
+nuget EnterpriseLibrary.Logging 5.0.505.0
+nuget EnterpriseLibrary.Logging.Database 5.0.505.0
+nuget EntityFramework 6.1.2 framework: >= net452
+nuget Magnum 2.1.3 framework: >= net451
+nuget MassTransit 2.10.1 framework: >= net451
+nuget MassTransit.RabbitMQ 2.10.1 framework: >= net451
+nuget MassTransit.StructureMap 2.10.1 framework: >= net451
+nuget Moq 4.5.30 framework: >= net452
+nuget NEST 1.7.1 framework: >= net452
+nuget Newtonsoft.Json 7.0.1
+nuget Quartz 2.3.3 framework: >= net451
+nuget RabbitMQ.Client 3.4.3 framework: >= net451
+nuget Serilog 1.5.11 framework: >= net452
+nuget StackExchange.Redis 1.0.488 framework: >= net452
+nuget structuremap 3.1.9.463
+nuget Topshelf 3.2.0 framework: >= net451
+nuget Unity 2.1.505.0
+nuget Unity.Interception 2.1.505.0
+
+source "InternalRepo"
+
+nuget Package_H < 17.14 copy_content_to_output_dir: always
+nuget Package_I < 17.14
+nuget Package_N
+nuget Package_O
